@@ -1,0 +1,11 @@
+.App {
+  padding: 0 25px;
+  background-color: #191919;
+}
+
+@media screen  and (max-width : 600px){
+  .App{
+    text-align: center;
+  }
+  
+}

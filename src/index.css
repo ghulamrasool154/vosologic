@@ -1,0 +1,53 @@
+:root {
+  --cyan: #1bc1cc;
+  --royalBlue: #2c1ad4;
+  --white: #fff;
+  --black: #000;
+  --tabcolor2: #010e88;
+  --tabscolor3: #021695;
+  --selected: #28b8fe;
+  --tabcontent: #0044d2;
+  --uppertabcontent: #162444;
+}
+@font-face {
+  font-family: "TTitilliumWeb-Bold";
+  src: url("./assets/fonts/TitilliumWeb-Bold.ttf") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TitilliumWeb-BoldItalic";
+  src: url("./assets/fonts/TitilliumWeb-BoldItalic.ttf") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TitilliumWeb-ExtraLight";
+  src: url("./assets/fonts/TitilliumWeb-ExtraLight.ttf") format("woff2");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TitilliumWeb-Light";
+  src: url("./assets/fonts/TitilliumWeb-Light.ttf") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TitilliumWeb-Regular";
+  src: url("./assets/fonts/TitilliumWeb-Regular.ttf") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TitilliumWeb-SemiBold";
+  src: url("./assets/fonts/TitilliumWeb-SemiBold.ttf") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}

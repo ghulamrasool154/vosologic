@@ -1,0 +1,110 @@
+.silder---ttile---compare {
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "TitilliumWeb-SemiBold";
+  text-align: center;
+  margin: 0;
+  color: white;
+  margin-top: 20px;
+}
+
+.slick-initialized .slick-slide {
+  background-color: #07265f;
+  border-radius: 22px;
+  width: 280px !important;
+  padding: 25px 0;
+  display: flex !important;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.slick-slide img {
+  display: block;
+  width: 70px;
+  text-align: center;
+  margin: auto;
+}
+
+.slick-initialized .slick-slide.slick-current {
+  /* background-color: #1568fe; */
+  width: 350px !important;
+  height: 300px !important;
+  border-radius: 40px;
+  padding: 40px;
+  background: linear-gradient(197deg, rgba(17,97,253,1) 0, rgba(94,242,254,1) 100%);
+}
+.slick-initialized .slick-slide.slick-current img {
+  width: 100px;
+}
+.slick-initialized .slick-slide.slick-current .silder---ttile---compare {
+  font-size: 23px;
+  line-height: 23px;
+  font-family: "TitilliumWeb-SemiBold";
+}
+
+
+
+ 
+
+
+.slick-track:after {
+  content: "yy";
+  background: #0044d240;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+@media screen and (max-width: 767px) {
+  .slick-initialized .slick-slide {
+    /* width: 200px !important;
+    height: 180px; */
+  }
+
+  .slick-initialized .slick-slide.slick-current {
+    width: 300px !important;
+    height: 250px !important;
+    margin: 0;
+    padding: 20px;
+  }
+  .slick-initialized .slick-slide {
+    width: auto;
+    height: 180px;
+  }
+  .slick-initialized .slick-slide.slick-current .silder---ttile---compare {
+    font-size: 20px;
+  }
+  .silder---ttile---compare {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slick-initialized .slick-slide.slick-current img {
+    width: 80px;
+  }
+  .slick-slide img {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slick-initialized .slick-slide {
+    width: 120px !important;
+  }
+  .slick-initialized .slick-slide.slick-current {
+    width: 180px !important;
+    height: 229px !important;
+  }
+}

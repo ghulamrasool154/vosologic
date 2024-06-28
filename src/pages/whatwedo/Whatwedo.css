@@ -1,0 +1,220 @@
+section.whatwedo--page {
+  background-image: url("../../assets/images/wat--again--2--k.png");
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -75px;
+  z-index: 2;
+}
+
+.w--page--left .main--title--w--do,
+.w--page--left .main--title--what-- {
+  font-family: "TitilliumWeb-Regular";
+  text-transform: uppercase;
+}
+
+.w--page--right--image {
+  display: none;
+}
+.w--page--left .main--title--what-- {
+  font-size: 100px;
+  color: var(--white);
+  height: 60px;
+}
+
+.w--page--left .main--title--w--do {
+  color: var(--cyan);
+  font-size: 150px;
+  font-family: "TTitilliumWeb-Bold";
+}
+
+.w--page--left {
+  padding-top: 200px;
+}
+
+.w--page--left p {
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: inherit;
+  font-family: "TitilliumWeb-Regular";
+  color: var(--white);
+  margin: 0;
+}
+
+.what--we--do---title {
+  font-family: "TitilliumWeb-Regular";
+  color: white;
+  font-size: 35px;
+  line-height: 45px;
+  margin-bottom: 15px;
+}
+
+.what--we--do---discription {
+  font-family: "TitilliumWeb-Regular";
+  color: white;
+  font-size: 20px;
+  line-height: initial;
+  margin: 0;
+}
+.whatwedo--page .automate--section {
+  margin-top: 700px;
+}
+
+.automate--section .content--sect {
+  margin-top: 100px;
+}
+
+/* .ringless--section */
+.ivr--section .img--section,
+.ringless--section .img--section {
+  margin-top: -60px;
+}
+.ivr--section .content--sect,
+.ringless--section .content--sect {
+  padding-top: 60px;
+}
+
+/* .ringless--section */
+
+/* predictive */
+.call--section .content--sect,
+.aiboot--section .content--sect,
+.predictive--section .content--sect {
+  margin-top: 100px;
+}
+
+.call--section .img--section,
+.aiboot--section .img--section {
+  margin-top: -60px;
+}
+/* predictive */
+
+@media screen and (max-width: 1400px) {
+  .whatwedo--page .automate--section {
+    margin-top: 450px;
+  }
+  .w--page--left .main--title--what-- {
+    font-size: 80px;
+  }
+  .w--page--left .main--title--w--do {
+    font-size: 120px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .automate--section .content--sect {
+    margin-top: 0;
+  }
+  .aiboot--section .content--sect,
+  .predictive--section .content--sect {
+    margin-top: 50px;
+  }
+
+  /* rinless */
+  .aiboot--section .img--section,
+  .ivr--section .img--section,
+  .ringless--section .img--section {
+    margin-top: -10px;
+  }
+  /* rinless  */
+}
+@media screen and (max-width: 1024px) {
+  /* rinless */
+  /* .call--section  */
+  .whatwedo--page .automate--section {
+    margin-top: 300px;
+  }
+  .w--page--left p {
+    font-size: 20px;
+  }
+  .call--section .content--sect,
+  .call--section .img--section,
+  .ivr--section .img--section,
+  .ringless--section .img--section {
+    margin-top: 60px;
+  }
+
+  .ringless--section .content--sect,
+  .ringless--section .content--sect {
+    padding-top: 80px;
+  }
+  /* rinless  */
+}
+@media screen and (max-width: 880px) {
+  .what--we--do---discription {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.whatwedo--page {
+    background-image: url("../../assets/images/whatwedo--bg.png");
+    background-position: top;
+  }
+  .whatwedo--page .automate--section {
+    margin-top: auto;
+  }
+  .w--page--right--image {
+    display: block;
+  }
+  .w--page--left {
+    padding-top: 150px;
+  }
+
+  .aiboot--section .img--section,
+  .ivr--section .content--sect,
+  .ringless--section .content--sect {
+    padding-top: 30px;
+  }
+
+  .img--section {
+    width: 400px;
+    margin: auto;
+  }
+
+  .what--we--do---title {
+    font-size: 30px;
+  }
+
+  .automate--section .img--section {
+    padding-top: 30px;
+  }
+
+  .call--section .col-lg-5.col-md-5,
+  .ivr--section .col-lg-5.col-md-5,
+  .ringless--section .col-lg-5.col-md-5 {
+    order: 1;
+  }
+
+  .call--section .img--section,
+  .call--section .content--sect,
+  .aiboot--section .content--sect,
+  .ivr--section .img--section,
+  .predictive--section .content--sect,
+  .ringless--section .img--section {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w--page--left {
+    padding-top: 100px;
+  }
+  .w--page--left .main--title--w--do {
+    font-size: 100px;
+  }
+  .w--page--left .main--title--what-- {
+    font-size: 60px;
+    line-height: initial;
+  }
+}
+@media screen and (max-width: 420px) {
+  .img--section {
+    width: auto;
+    margin: auto;
+  }
+  .w--page--left .main--title--w--do {
+    font-size: 80px;
+  }
+}

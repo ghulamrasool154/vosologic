@@ -1,0 +1,62 @@
+header {
+  padding: 30px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.header--logo {
+  width: 180px;
+}
+.header--nav--icon {
+  width: 100px;
+  margin: auto;
+}
+.header--nav--icon img,
+.header--logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header--button {
+  background: white;
+  border-radius: 22px;
+  text-align: center;
+  width: 250px;
+  height: 45px;
+  float: right;
+  line-height: 45px;
+}
+
+.header--button a {
+  color: var(--cyan);
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  font-family: "TitilliumWeb-SemiBold";
+}
+
+.header--button a:hover {
+  color: var(--cyan);
+}
+
+@media screen and (max-width: 1200px) {
+  .header--button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header--logo {
+    width: 130px;
+  }
+  .header--nav--icon {
+    width: 80px;
+  }
+  .header--button {
+    display: none;
+  }
+  .header--nav--icon {
+    float: right;
+  }
+}

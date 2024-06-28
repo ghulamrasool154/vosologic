@@ -1,0 +1,203 @@
+.faq--page {
+  padding: 50px 0;
+}
+.section---title {
+  color: white;
+  font-family: "TitilliumWeb-SemiBold";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: initial;
+  margin: 0;
+}
+
+.faq_section {
+  position: relative;
+  margin: 100px 0;
+  margin-bottom: 0;
+}
+.box--faq--section {
+  position: absolute;
+  width: 77px;
+  z-index: 2;
+}
+.box--faq--section img {
+  cursor: pointer;
+}
+.box--faq--section.box--faq--1 {
+  top: 40.1%;
+  left: 10%;
+}
+.box--faq--section.box--faq--2 {
+  bottom: 22%;
+  left: 21.2%;
+}
+.box--faq--section.box--faq--3 {
+  bottom: 14.5%;
+  right: 45%;
+}
+
+.box--faq--section.box--faq--4 {
+  right: 20.3%;
+  top: 44.7%;
+}
+
+.inner--box {
+  position: absolute;
+  background: #1b0acead;
+  width: 400px;
+  padding: 25px;
+  border-radius: 10px 20px 20px 0;
+  bottom: 40px;
+  left: 38px;
+  z-index: -1;
+}
+.inner--box h3,
+.inner--box p {
+  color: white;
+  font-size: 20px;
+  font-family: "TitilliumWeb-Regular";
+  line-height: initial;
+}
+.inner--box.hidden {
+  display: none;
+}
+
+.box--faq--4 .inner--box {
+  left: auto;
+  right: 30px;
+  border-radius: 10px 10px 0 10px;
+}
+.responive----box--- {
+  display: none;
+}
+@media screen and (max-width: 1300px) {
+  .box--faq--section {
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .box--faq--section {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section---title {
+    font-size: 30px;
+  }
+  .inner--box {
+    width: 350px;
+  }
+  .box--faq--section.box--faq--1,
+  .box--faq--section.box--faq--4 {
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .inner--box h3 {
+    font-size: 17px;
+  }
+  .inner--box p {
+    font-size: 15px;
+  }
+  .box--faq--section.box--faq--3 .inner--box {
+    left: -80px;
+    top: 62px;
+    height: max-content;
+  }
+  .faq_section {
+    display: none !important;
+  }
+
+  .responive----box--- {
+    display: block;
+    position: relative;
+  }
+  .mobile--responsive {
+    padding: 50px 0;
+    position: relative;
+    padding-bottom: 0;
+  }
+  .mobile--responsive--imges img {
+    width: 45px;
+    position: absolute;
+  }
+
+  .mobile--responsive--imges .mobile--responsive--1 {
+    top: 40%;
+    left: 10%;
+  }
+  .mobile--responsive .mobile--responsive--2 {
+    top: 65%;
+    left: 20%;
+  }
+  .mobile--responsive .mobile--responsive--3 {
+    right: 46%;
+    bottom: 20%;
+  }
+  .mobile--responsive .mobile--responsive--4 {
+    right: 20%;
+    top: 46%;
+  }
+
+  .responive----box--- .inner--box-- {
+    color: white;
+    font-size: 15px;
+  }
+  .responive----box--- .inner--box-- {
+    background: #1b0acead;
+    padding: 25px;
+    max-width: 400px;
+    border-radius: 10px;
+    top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 3;
+}
+  .responive----box--- .inner--box-- h3 {
+    font-size: 20px;
+    line-height: initial;
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 600px) {
+  .section---title {
+    font-size: 25px;
+  }
+  .box--faq--section {
+    width: 45px;
+  }
+  .inner--box {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile--responsive--imges img {
+    width: 40px;
+  }
+  .responive----box--- .inner--box--{
+    bottom: -100px;
+    top: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .responive----box--- .inner--box--{
+   bottom: -  150px;
+  }
+  .responive----box--- .inner--box-- h3{
+    font-size: 15px;
+  }
+  .section---title {
+    font-size: 25px;
+  }
+  .box--faq--section {
+    width: 35px;
+  }
+}

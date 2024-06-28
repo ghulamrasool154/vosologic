@@ -1,0 +1,1091 @@
+.home_wrapper {
+  background-image: url('../../assets/images/whatwedo--bg.png');
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+}
+
+.propel_your h2 {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 60px;
+  color: var(--white);
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.propel_your .headings {
+  font-family: "TTitilliumWeb-Bold";
+  font-size: 85px;
+  color: var(--cyan);
+}
+
+.propel_your p {
+  font-family: "TitilliumWeb-Regular";
+  color: var(--white);
+  font-size: 28px;
+}
+
+.propel_your .company_discription {
+  color: var(--white);
+  font-family: "TTitilliumWeb-Bold";
+  font-size: 30px;
+
+}
+
+.configure_sectoion {
+  background-image: url("../../assets/images/easyconfig.png");
+  background-repeat: no-repeat;
+  height: 890px;
+  background-size: 100%;
+}
+
+.configure_sectoion h4 {
+  font-family: "TitilliumWeb-SemiBold";
+  font-size: 50px;
+  color: var(--white);
+  text-transform: uppercase;
+  padding-top: 125px;
+  padding-left: 70px;
+  line-height: 72px;
+}
+
+.configure_sectoion p {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 26px;
+  padding-left: 70px;
+  color: var(--white);
+  line-height: 31px;
+}
+
+.configure_sectoion .sound_wave {
+  width: 65%;
+  padding-left: 70px;
+}
+
+.reporting h4,
+.choose_voslogic h4,
+.difference_section h4 {
+  font-family: "TitilliumWeb-SemiBold";
+  font-size: 55px;
+  line-height: 72px;
+  color: var(--white);
+  text-align: center;
+}
+
+.reporting p,
+.choose_voslogic p,
+.difference_section p {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--white);
+  text-align: center;
+  width: 72%;
+  margin: auto;
+}
+
+.reporting {
+  padding: 50px 0px;
+}
+
+.tabs_section {
+  background-image: url('../../assets/images/whatwedo--bg.png');
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+.voslogic_tabs_main_wrapper {
+  background: url("../../assets/images/wavesbg.png");
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  background-position:top center;
+}
+
+.tabs_section .react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: none;
+  color: white;
+}
+
+.tabs_section .react-tabs__tab {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: none;
+  z-index: 1;
+}
+
+.tabs_section .react-tabs__tab--selected {
+  background: rgb(168,222,226);
+  background: linear-gradient(33deg, rgba(168,222,226,1) 2%, rgba(27,193,204,1) 41%, rgba(27,193,204,1) 100%) !important;
+  width: 290px;
+  height: 240px;
+  border-radius: 20px;
+  border-bottom: none !important;
+  margin-right: 0px !important;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.tabs_section .react-tabs__tab:nth-child(2) {
+  background: var(--tabcolor2);
+  margin-right: 20px;
+}
+
+.tabs_section .react-tabs__tab:nth-child(3),
+.tabs_section .react-tabs__tab:nth-child(1) {
+  background: var(--tabscolor3);
+  margin-right: 20px;
+}
+
+.tabs_section .icon {
+  width: 80px;
+
+
+}
+
+.tabs_section .content_section {
+  height: 270px;
+  position: absolute;
+  width: 95%;
+  background: var(--tabcontent);
+  bottom: 50px;
+  padding: 50px;
+  border-radius: 0px 50px;
+}
+
+.tabs_section .tabs_content_dispcription1 {
+  position: absolute;
+  background: rgb(126,146,191);
+  background: radial-gradient(circle, rgba(126,146,191,1) 2%, rgba(22,36,68,1) 41%, rgba(64,85,131,1) 100%) !important;
+  height: 270px;
+  width: 95%;
+  bottom: 310px;
+  opacity: 0.4;
+  border-radius: 20px 0px;
+}
+img.img-fluid.playicon.pause {
+  display: none;
+  transition: .5s;
+}
+.video_poster:hover img.img-fluid.playicon.pause {
+  display: block;
+  /* transition: 1s ease-in-out; */
+}
+
+
+
+.tabs_section .tabs_content_dispcription h2 {
+  font-family: "TTitilliumWeb-Bold";
+  font-size: 40px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.tabs_section .tabs_content_dispcription p {
+  margin-bottom: 0px;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 22px;
+  color: var(--white);
+  line-height: 30px;
+}
+
+.tabs_section2 {
+  display: none !important;
+}
+
+.parent_section {
+  overflow: hidden;
+  height: 400px !important;
+}
+
+.detail h2 {
+  font-family: 'TTitilliumWeb-Bold';
+  font-size: 48px;
+  color: var(--white);
+}
+
+.Caro_main_wrapper .detail p {
+  font-family: 'TitilliumWeb-Regular';
+  font-size: 18px;
+  color: var(--white);
+  text-align: start;
+  margin: 0px;
+}
+
+.icon_diff {
+  border-radius: 300px 300px 10px 300px;
+  width: 200px;
+  background: var(--selected);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.icon_diff img {
+  width: 100px;
+}
+
+/* .tabs_section .react-tabs__tab:focus {
+  position: initial !important;
+
+} */
+.difference_section {
+  padding-top: 50px;
+}
+
+.human_ai_secton .artifical_video_section h4 {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 50px;
+  line-height: 55px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.human_ai_secton .artifical_video_section p,
+.human_ai_secton .human_ai p {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 22px;
+  color: var(--white);
+}
+
+.human_ai_secton .human_ai h4 {
+  font-family: "TTitilliumWeb-Bold";
+  font-size: 70px;
+  color: var(--cyan);
+}
+
+.video_poster video#video {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.video_poster {
+  position: relative;
+}
+
+.video_poster .playicon {
+  position: absolute;
+  left: 37%;
+  top: 33%;
+  width: 150px;
+  cursor: pointer;
+}
+
+.here_for_yourself_section {
+  background-image: url('../../assets/images/here-for-yourself.png');
+  background-size: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+button.buttongreen {
+  border: none;
+  background: green;
+  color: var(--white);
+  font-family: 'TitilliumWeb-SemiBold';
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 8px 30px;
+}
+
+button.buttonred {
+  border: none;
+  background: red;
+  color: var(--white);
+  font-family: 'TitilliumWeb-SemiBold';
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 8px 30px;
+}
+
+.here_for_yourself_section h4 {
+  font-family: 'TitilliumWeb-SemiBold';
+  font-size: 50px;
+  line-height: 60px;
+  color: var(--white);
+  padding-top: 50px;
+}
+
+p.yourself_discription {
+  font-family: 'TitilliumWeb-Regular';
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--white);
+  width: 36%;
+}
+
+p.hello_bob,
+.hello_bob_recorded {
+  font-family: 'TitilliumWeb-Regular';
+  font-size: 26px;
+  line-height: 32px;
+  color: var(--white);
+  width: 18%;
+  padding-top: 50px;
+}
+
+.hello_bob_recorded {
+  color: var(--cyan);
+}
+
+.your_self_inner_section {
+  padding: 50px
+}
+
+.hearing_waves_last_section {
+  width: 40%;
+  padding-top: 40px;
+}
+
+.hear_for_yourself {
+  padding: 50px 0px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .configure_sectoion {
+      height: 790px !important;
+  }
+
+  .parent_section {
+      width: 72em;
+  }
+
+  p.yourself_discription {
+      font-size: 20px;
+      line-height: 26px;
+  }
+
+  .here_for_yourself_section h4 {
+      padding-top: 30px !important;
+      font-size: 45px;
+  }
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      padding-top: 40px !important;
+      padding-bottom: 45px;
+  }
+
+  .hearing_waves_last_section {
+      width: 40%;
+      /* padding-top: 30px; */
+  }
+
+  .your_self_inner_section {
+      padding: 30px
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .your_self_inner_section {
+      padding: 50px;
+  }
+
+  .here_for_yourself_section h4 {
+      padding-top: 25px !important;
+      font-size: 45px;
+  }
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      padding-top: 10px !important;
+      width: 45%;
+  }
+
+  .hearing_waves_last_section {
+      width: 40%;
+      padding-top: 20px;
+  }
+
+  .propel_your h2 {
+      font-size: 50px;
+      line-height: 55px;
+  }
+
+  .hearing_waves_last_section {
+      width: 30%;
+
+  }
+
+  .hear_for_yourself {
+      padding: 20px 0px;
+  }
+
+  .propel_your .headings {
+      font-size: 72px;
+
+  }
+
+  .propel_your p {
+      font-size: 21px;
+  }
+
+  .configure_sectoion h4 {
+      font-size: 44px;
+      line-height: 50px;
+  }
+
+  .configure_sectoion p {
+      font-size: 24px;
+      line-height: 28px;
+  }
+
+  .configure_sectoion .sound_wave {
+      width: 70%;
+  }
+
+  .configure_sectoion {
+      height: 790px !important;
+  }
+
+  .reporting h4,
+  .choose_voslogic h4 {
+      font-size: 50px;
+      line-height: 65px;
+  }
+
+  .reporting p,
+  .choose_voslogic p {
+      font-size: 20px;
+      line-height: 27px;
+  }
+
+  .parent_section {
+      width: 65em !important;
+  }
+
+  .human_ai_secton .artifical_video_section h4 {
+      font-size: 44px;
+      line-height: 48px;
+  }
+
+  .human_ai_secton .artifical_video_section p,
+  .human_ai_secton .human_ai p {
+      font-size: 18px;
+  }
+
+  .human_ai_secton .human_ai h4 {
+      font-size: 60px;
+  }
+
+  .parent_section {
+      width: 72em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      padding-top: 10px !important;
+      padding-bottom: 40px;
+      font-size: 20px;
+      margin-bottom: 0px;
+  }
+
+  p.yourself_discription {
+      font-size: 18px;
+  }
+
+  .propel_your h2 {
+      font-size: 45px;
+      line-height: 45px;
+  }
+
+  .propel_your .headings {
+      font-size: 60px;
+  }
+
+  .propel_your p {
+      font-size: 18px;
+      line-height: 26px;
+  }
+
+  .propel_your .company_discription {
+      font-size: 25px;
+  }
+
+  .configure_sectoion h4 {
+      font-size: 35px;
+      line-height: 42px;
+  }
+
+  .configure_sectoion p {
+      font-size: 18px;
+      line-height: 24px;
+  }
+
+  .configure_sectoion {
+      height: 645px !important;
+  }
+
+  .reporting h4,
+  .choose_voslogic h4 {
+      font-size: 45px;
+      line-height: 52px;
+  }
+
+  .reporting p,
+  .choose_voslogic p,
+  .difference_section p {
+      font-size: 18px;
+      line-height: 25px;
+  }
+
+  .tabs_section .react-tabs__tab {
+      width: 220px;
+      height: 195px;
+  }
+
+  .tabs_section .react-tabs__tab--selected {
+      width: 260px;
+      height: 220px;
+  }
+
+  .parent_section {
+      width: 55em !important;
+  }
+
+  .child_section {
+      width: 45em !important;
+
+  }
+
+  .detail h2 {
+      font-size: 45px;
+  }
+
+  .icon_diff {
+      width: 190px;
+      height: 260px;
+  }
+
+  .icon_diff img {
+      width: 90px;
+  }
+
+  .human_ai_secton .artifical_video_section h4 {
+      font-size: 40px;
+      line-height: 42px;
+  }
+
+  .human_ai_secton .artifical_video_section p,
+  .human_ai_secton .human_ai p {
+      font-size: 16px;
+  }
+
+  .human_ai_secton .human_ai h4 {
+      font-size: 50px;
+  }
+
+  .video_poster .playicon {
+      left: 34%;
+      top: 30%;
+      width: 130px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .here_for_yourself_section h4 {
+      padding-top: 5px !important;
+      font-size: 38px;
+  }
+
+  p.yourself_discription {
+      width: 45%;
+  }
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      width: 40%;
+  }
+
+  .reporting {
+      padding: 25px 0px;
+  }
+
+  .configure_sectoion {
+      height: 540px !important;
+  }
+
+  .tabs_content_dispcription1,
+  .tabs_section .content_section {
+      width: 90%;
+      height: 240px;
+  }
+
+  .tabs_section .tabs_content_dispcription1 {
+      bottom: 280px;
+  }
+
+  .tabs_section .tabs_content_dispcription p {
+      font-size: 18px;
+      line-height: 22px;
+  }
+
+  .tabs_section .tabs_content_dispcription h2 {
+      font-size: 34px;
+  }
+
+  .parent_section {
+      width: 50em !important;
+  }
+
+  .child_section {
+      width: 42em !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      width: 70%;
+      padding-bottom: 15px;
+  }
+
+  .icon_diff {
+      width: 155px !important;
+      height: 220px;
+  }
+
+  .hearing_waves_last_section {
+
+      padding-top: 5px;
+  }
+
+  p.yourself_discription {
+      width: 60%;
+  }
+
+  .icon_diff img {
+      width: 76px;
+  }
+
+  .detail h2 {
+      font-size: 42px;
+  }
+
+  .Caro_main_wrapper .detail p {
+      font-size: 16px;
+  }
+
+  .parent_section {
+      width: 47em !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .your_self_inner_section {
+      padding: 25px;
+  }
+
+  p.yourself_discription {
+      width: 100%;
+      font-size: 16px;
+  }
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      width: 80%;
+      padding-bottom: 38px;
+  }
+
+  .tabs_section {
+      display: none !important;
+  }
+
+  .tabs_section2 .react-tabs__tab-list {
+      border: 0px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .tabs_section2 {
+      display: block !important;
+      background: url("../../assets/images/wavesbg.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 25px 0px;
+      background-position: center;
+  }
+
+  .propel_your h2 {
+      font-size: 49px;
+      line-height: 50px;
+  }
+
+  .propel_your .headings {
+      font-size: 72px;
+  }
+
+  .propel_your p {
+      font-size: 22px;
+      line-height: 26px;
+  }
+
+  .configure_sectoion h4,
+  .configure_sectoion p,
+  .configure_sectoion .sound_wave {
+      padding-left: 35px;
+  }
+
+  .configure_sectoion {
+      height: 450px !important;
+  }
+
+  .reporting h4,
+  .choose_voslogic h4,
+  .difference_section h4 {
+      font-size: 35px;
+      line-height: 40px;
+      width: 100%;
+  }
+
+  .reporting p,
+  .choose_voslogic p {
+      font-size: 15px;
+      line-height: 20px;
+  }
+
+  .tabs_section2 .react-tabs__tab:nth-child(3),
+  .tabs_section2 .react-tabs__tab:nth-child(1) {
+      font-family: "TitilliumWeb-Regular";
+      font-size: 18px;
+      background: var(--tabscolor3);
+      color: var(--white);
+      border: 0px;
+  }
+
+  .tabs_section2 .react-tabs__tab:nth-child(2) {
+      font-family: "TitilliumWeb-Regular";
+      font-size: 18px;
+      background: var(--tabcolor2);
+      color: var(--white);
+  }
+
+  .tabs_section2 .react-tabs__tab--selected {
+      font-family: "TTitilliumWeb-Bold" !important;
+      font-size: 22px !important;
+      background: var(--selected) !important;
+      border: 0px;
+  }
+
+  .tabs_section2 .main_tablet_based_tab_content_wrapper {
+      background: var(--tabcontent);
+      height: 200px;
+      color: var(--white);
+      border-radius: 0px 0px 20px 20px;
+      padding: 20px;
+  }
+
+  .tabs_content_dispcription2 {
+      background: var(--uppertabcontent);
+      height: 200px;
+      border-radius: 20px 20px 0px 0px;
+      opacity: 0.4;
+  }
+
+  .tablet_bases_tab_content h2 {
+      font-family: "TTitilliumWeb-Bold";
+      font-size: 30px;
+  }
+
+  .tablet_bases_tab_content p {
+      font-family: "TitilliumWeb-Regular";
+      margin-bottom: 0px;
+      font-size: 18px;
+  }
+
+  .parent_section {
+      width: 40em !important;
+  }
+
+  .video_poster .playicon {
+      left: 41%;
+      top: 38%;
+  }
+
+  .parent_section {
+      height: 285px !important;
+  }
+
+  .difference_section {
+      padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      width: 100%;
+      padding-bottom: 10px;
+  }
+
+  .configure_sectoion h4 {
+      padding-top: 60px;
+  }
+
+  .configure_sectoion {
+      height: 420px !important;
+  }
+
+  .reporting h4,
+  .choose_voslogic h4 {
+      font-size: 30px;
+      line-height: 30px;
+  }
+
+  .reporting p,
+  .choose_voslogic p {
+      font-size: 16px;
+      line-height: 20px;
+      width: 89%;
+  }
+
+  .parent_section {
+      width: 35em !important;
+  }
+
+  .video_poster .playicon {
+      left: 38%;
+      top: 35%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .propel_your h2 {
+      font-size: 40px;
+      line-height: 45px;
+  }
+
+  .here_for_yourself_section h4 {
+      padding-top: 0px;
+      font-size: 30px;
+      margin-bottom: 0px;
+  }
+
+  p.yourself_discription {
+
+      font-size: 12px;
+      margin-bottom: 0px !important;
+      line-height: 20px;
+  }
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      width: 100%;
+      padding: 0px 0px;
+      font-size: 16px;
+  }
+
+  .your_self_inner_section {
+      padding: 30px;
+  }
+
+  .propel_your .headings {
+      font-size: 59px;
+  }
+
+  .propel_your p {
+      font-size: 18px;
+      line-height: 24px;
+  }
+
+  .configure_sectoion h4 {
+      font-size: 30px;
+      line-height: 35px;
+  }
+
+  .configure_sectoion h4 {
+      padding-top: 50px;
+  }
+
+  .configure_sectoion {
+      height: 355px !important;
+  }
+
+  .reporting h4,
+  .choose_voslogic h4,
+  .difference_section h4 {
+      font-size: 26px;
+      line-height: 27px;
+  }
+
+  .configure_sectoion h4,
+  .configure_sectoion p,
+  .configure_sectoion .sound_wave {
+      padding-left: 22px;
+  }
+
+  .tabs_section2 .react-tabs__tab--selected {
+
+      font-size: 16px !important;
+  }
+
+  .reporting p,
+  .choose_voslogic p {
+      font-size: 14px;
+      width: 95%;
+  }
+
+  .detail h2 {
+      font-size: 35px;
+  }
+
+  .icon_diff {
+      width: 135px !important;
+      height: 190px;
+  }
+
+  .icon_diff img {
+      width: 62px;
+  }
+
+  .parent_section {
+      width: 28em !important;
+  }
+
+  .child_section {
+      width: 50em !important;
+  }
+
+  .video_poster .playicon {
+      left: 36%;
+      top: 33%;
+  }
+
+  .parent_section {
+      height: 230px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  button.buttonred {
+      font-size: 12px;
+  }
+
+  button.buttongreen {
+      font-size: 12px;
+  }
+
+  .here_for_yourself_section h4 {
+      font-size: 17px;
+      line-height: 25px;
+  }
+
+  p.hello_bob,
+  .hello_bob_recorded {
+      font-size: 12px;
+      line-height: 14px;
+      padding-top: 9px !important;
+      padding-bottom: 10px;
+  }
+
+  .your_self_inner_section {
+      padding: 20px;
+  }
+
+  .configure_sectoion h4 {
+      padding-top: 40px;
+  }
+
+  .configure_sectoion h4,
+  .configure_sectoion p,
+  .configure_sectoion .sound_wave {
+      padding-left: 16px;
+  }
+
+  .configure_sectoion h4 {
+      font-size: 26px;
+      line-height: 30px;
+  }
+
+  .configure_sectoion p {
+      font-size: 16px;
+      line-height: 20px;
+  }
+
+  .configure_sectoion {
+      height: 295px !important;
+  }
+
+  .parent_section {
+      width: 20em !important;
+  }
+
+  .icon_diff {
+      width: 100px !important;
+      height: 140px;
+  }
+
+  .icon_diff img {
+      width: 45px;
+  }
+
+  .detail h2 {
+      font-size: 28px;
+  }
+
+  .Caro_main_wrapper .detail p {
+      font-size: 14px;
+      width: 62% !important;
+  }
+
+  .video_poster .playicon {
+      left: 32%;
+      top: 29%;
+  }
+
+  .parent_section {
+      height: 175px !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  p.yourself_discription {
+      font-size: 10px;
+      margin-bottom: 0px !important;
+      line-height: 18px;
+  }
+
+  p.hello_bob,
+  .hello_bob_recorded {
+
+      padding-top: 4px !important;
+      padding-bottom: 4px;
+  }
+
+  .configure_sectoion h4 {
+      padding-top: 22px;
+  }
+
+  .configure_sectoion {
+      height: 250px !important;
+  }
+
+  .video_poster .playicon {
+      left: 28%;
+      top: 23%;
+  }
+  .your_self_inner_section {
+      padding: 20px;
+  }
+}
